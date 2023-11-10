@@ -26,3 +26,14 @@ listTopics();
 
 console.log('Which topic should we study first?');
 selectTopic();
+
+const myImage = document.querySelector("img");
+
+myImage.onclick = () => {
+  const mySrc = myImage.getAttribute("src");
+  if (mySrc === "assets/bowtie-cat.png") {
+    myImage.setAttribute("src", "assets/doberman.png");
+  } else {
+    myImage.setAttribute("src", "assets/bowtie-cat.png");
+  }
+};
