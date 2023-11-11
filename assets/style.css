@@ -10,6 +10,11 @@ header, footer {
 }
 h1, h2, h3 {
     text-align: center;
+    width: auto;
+}
+h2 {
+    font-size: 4vw;
+    font-size: 16px;
 }
 img {
     display: block;
@@ -30,5 +35,22 @@ p {
     width: 80%;
     margin: 40px auto;
     border: 5px solid gray;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 5px 10px #3d3d3d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.git-command {
+    color: #a5030b;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #777777;
+    background-color: #f0f0f0;
+    display: inline-block;
+    font-size: smaller;
+}
+.logo {
+    float: right;
+    height: 10%;
+    margin: 5px;
 }
